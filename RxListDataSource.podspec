@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxListDataSource'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Provides data sources for UITableView or UICollectionView.'
   
   # This description is used to generate tags and improve search results.
@@ -34,9 +34,8 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '11.0'
   
   s.swift_versions = ['4.2', '5.0']
-  
+  s.requires_arc = true
   s.source_files = 'RxListDataSource/Classes/*.{swift}'
-  
   # s.resource_bundles = {
   #   'RxListDataSource' => ['RxListDataSource/Assets/*.png']
   # }
