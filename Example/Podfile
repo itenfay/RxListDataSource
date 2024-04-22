@@ -4,20 +4,9 @@ platform :ios, '11.0'
 
 target 'RxListDataSource_Example' do
   pod 'RxListDataSource', :path => '../'
-  # RxSwift
-  pod 'RxSwift'
-  # RxCocoa
-  pod 'RxCocoa'
-  # RxDataSources
-  pod 'RxDataSources'
   
   target 'RxListDataSource_Tests' do
     inherit! :search_paths
-    # RxSwift
-    pod 'RxSwift'
-    # RxCocoa
-    pod 'RxCocoa'
-    # RxDataSources
-    pod 'RxDataSources'
+    
   end
 end
