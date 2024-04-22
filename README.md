@@ -23,9 +23,7 @@ pod 'RxListDataSource'
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-To learn more, please go to **[here](https://github.com/chenxing640/CXSwiftKit/blob/master/Example/CXSwiftKit/iOS/Modules/Pages/PermissionsViewController.swift
+To run the example project, clone the repo, and run `pod install` from the Example directory first. To learn more, please go to **[here](https://github.com/chenxing640/CXSwiftKit/blob/master/Example/CXSwiftKit/iOS/Modules/Pages/PermissionsViewController.swift
 )**!
 
 ## Author
