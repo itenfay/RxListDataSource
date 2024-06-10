@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxListDataSource'
-  s.version          = '1.0.2'
+  s.version          = '1.1.0'
   s.summary          = 'Provides data sources for UITableView or UICollectionView.'
   
   # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   TODO: Provides data sources for UITableView or UICollectionView.
   DESC
   
-  s.homepage         = 'https://github.com/chenxing640/RxListDataSource'
+  s.homepage         = 'https://github.com/itenfay/RxListDataSource'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Teng Fei' => 'hansen981@126.com' }
-  s.source           = { :git => 'https://github.com/chenxing640/RxListDataSource.git', :tag => s.version.to_s }
+  s.author           = { 'Tenfay' => 'hansen981@126.com' }
+  s.source           = { :git => 'https://github.com/itenfay/RxListDataSource.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.ios.deployment_target = '11.0'
@@ -46,5 +46,4 @@ Pod::Spec.new do |s|
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'RxDataSources'
-  
 end
