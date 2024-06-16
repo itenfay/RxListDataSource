@@ -9,7 +9,7 @@ Provides data sources for UITableView or UICollectionView.
 
 ## Requirements
 
-* Xcode 13.0+
+* Xcode 14.0+
 * iOS 11.0, tvOS 11.0
 
 ## Installation
@@ -23,8 +23,7 @@ pod 'RxListDataSource'
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first. To learn more, please go to **[here](https://github.com/itenfay/CXSwiftKit/blob/master/Example/CXSwiftKit/iOS/Modules/Pages/PermissionsViewController.swift
-)**!
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## License
 
